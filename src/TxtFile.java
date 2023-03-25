@@ -1,4 +1,4 @@
 public interface TxtFile {
-        void saveToTxt() throws Exception;
-        void loadFromTxt() throws Exception;
+        void saveToTxt(Phonebook phonebook) throws Exception;
+        void loadFromTxt(Phonebook phonebook) throws Exception;
 }
